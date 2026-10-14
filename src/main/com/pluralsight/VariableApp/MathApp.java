@@ -39,7 +39,7 @@ public class MathApp {
         System.out.print("Given " + value + ", the result is " + result + " .");
         //Q5 Find the distance between the oints (5,10) and (85, 50)
         double x1 = 5, x2 = 85, y1 = 10, y2 = 50;
-        double t_distance = Math.sqrt(Math.pow((x2 - x1),2.00) + Math.pow((y2 - y1), 2));
+        double t_distance = Math.sqrt(Math.pow((x2 - x1),2.00) + Math.pow((y2 - y1), 2.00));
         System.out.print("The Total Distance is: " + t_distance);
         //Q6 Find and dislay the absolute value of a variable after being set to -3.8
         double v = -3.8;
